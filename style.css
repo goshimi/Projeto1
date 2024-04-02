@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(161, 205, 211);
+    color: rgb(246, 247, 250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(21, 140, 156);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    word-spacing: 500px;
+}
+
+nav a {
+    text-decoration: white;
+    color: rgb(21, 140, 156);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(173, 46, 199);
+    text-decoration: aliceblue;
+    cursor: crosshair;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: rgb(21, 140, 156);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
