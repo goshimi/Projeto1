@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(161, 205, 211);
-    color: rgb(246, 247, 250);
+    background-color: rgb(183, 161, 211);
+    color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
     text-align: center;
 }
 
 header {
-    background-color: rgb(21, 140, 156);
-    color: rgb(255, 255, 255);
+    background-color: rgb(107, 21, 156);
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
 
 nav a {
     text-decoration: white;
-    color: rgb(21, 140, 156);
+    color: rgb(107, 21, 156);
     margin: 0 15px;
     font-weight: bold;
 }
@@ -36,7 +36,7 @@ section {
 }
 
 footer {
-    background-color: rgb(21, 140, 156);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: fixed;
     padding: 10px;
