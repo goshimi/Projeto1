@@ -10,8 +10,12 @@
 </head>
 <body>
     <form>
+
         <label for="name">Nome:</label>
         <input type="text" id="" name="name" required>
+
+        <label for="data">Escolha a data:</label>
+        <input type="date" name="data" id="data" required>
 
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required>
@@ -22,11 +26,24 @@
         <label for="numero">Número:</label>
         <input type="number" name="numero" id="numero" pattern="[0 9]" required>
  
+        <label for="faixa_valor">Faixa valor:</label>
+        <input type="range" name="faixa_valor" id="faixa_valor" required>
+
         <label for="mensagem">Mensagem:</label>
         <input name="email" id="message" rows="10" required>
 
-        <label for="faixa_valor">Faixa valor:</label>
-        <input type="range" name="faixa_valor" id="faixa_valor" required>
+        <label for="cor">Selecione uma cor:</label>
+        <input type="color" id="cor" name="cor" required>
+
+
+        <label for="Arquivo">Selecione um arquivo:</label>
+        <input type="radio" name="radio" id="radio" required>
+ 
+        <label for="selecao">Caixa de seleção:</label>
+        <input type="checkbox" name="selecao" id="selecao" required>
+
+        <label for="selecao">Seleção:</label>
+        <input type="radio" name="radio" id="radio" required>
 
         <button type="submit">Enviar</button>
 
