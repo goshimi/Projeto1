@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(183, 161, 211);
-    color: rgb(0, 0, 0);
+    background-color: rgb(72, 61, 87);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
     text-align: center;
@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: rgb(107, 21, 156);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 nav {
